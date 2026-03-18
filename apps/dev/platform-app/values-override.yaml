@@ -2,4 +2,4 @@ replicaCount: 2
 
 image:
   repository: 078591672268.dkr.ecr.us-east-1.amazonaws.com/platform/app
-  digest: sha256:dae90dc6102717123445c6940d0702838c70e8a3dfee50cffa7b3cbe0c6699f8
+  digest: sha256:6c10f87178045cd97d12c6f764fc60222878f837358d3874f6e8a116995d474a
