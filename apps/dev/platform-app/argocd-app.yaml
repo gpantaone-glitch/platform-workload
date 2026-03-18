@@ -12,7 +12,7 @@ spec:
     helm:
       valueFiles:
       #  ##- ../../../apps/dev/platform-app/values-override.yaml
-        - /apps/dev/platform-app/values-override.yaml
+        - values-override.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
