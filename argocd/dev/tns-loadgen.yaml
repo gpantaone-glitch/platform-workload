@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: tns-loadgen
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/YOUR_ORG/platform-workload
+    targetRevision: main
+    path: base/tns-loadgen
+    helm:
+      valueFiles:
+        - ../../../apps/dev/tns-loadgen/values.yaml
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: tns
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
