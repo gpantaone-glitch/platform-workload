@@ -1,0 +1,5 @@
+apiVersion: v2
+name: tns-app
+description: TNS application tier
+version: 0.1.0
+appVersion: "1.0.0"

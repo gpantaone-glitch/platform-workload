@@ -1,0 +1,11 @@
+image:
+  repository: 078591672268.dkr.ecr.us-east-1.amazonaws.com/platform/tns-loadgen
+  digest: sha256:034d04c97b36d5e677a3693f0a6681af327bd744b3c990f23fa7f0a852526ad9
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 64Mi
+  limits:
+    cpu: 100m
+    memory: 128Mi

@@ -1,0 +1,13 @@
+image:
+  repository: 078591672268.dkr.ecr.us-east-1.amazonaws.com/platform/tns-app
+  digest: sha256:5c7a18eafd1c45ec5eb4e709c06e11885ff03f61b244e3a07ec68dbbe1e09ade
+
+replicaCount: 2
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 64Mi
+  limits:
+    cpu: 200m
+    memory: 128Mi
