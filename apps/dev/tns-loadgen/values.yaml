@@ -1,6 +1,6 @@
 image:
   repository: 078591672268.dkr.ecr.us-east-1.amazonaws.com/platform/tns-loadgen
-  digest: sha256:034d04c97b36d5e677a3693f0a6681af327bd744b3c990f23fa7f0a852526ad9
+  digest: sha256:e343eab9129ac508f41530c41f0833700324b301dae588693f16e3384b51cb7b
 
 resources:
   requests:
