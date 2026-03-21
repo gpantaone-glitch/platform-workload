@@ -1,6 +1,6 @@
 image:
   repository: 078591672268.dkr.ecr.us-east-1.amazonaws.com/platform/tns-app
-  digest: sha256:5c7a18eafd1c45ec5eb4e709c06e11885ff03f61b244e3a07ec68dbbe1e09ade
+  digest: sha256:83f96b9c7939321a327baf4166b2cd96d134c28861cf426631abeb3ca5dfae2b
 
 replicaCount: 2
 
