@@ -11,7 +11,7 @@ spec:
     path: base/tns-loadgen
     helm:
       valueFiles:
-        - ../../../apps/dev/tns-loadgen/values.yaml
+        - /apps/dev/tns-loadgen/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: tns
