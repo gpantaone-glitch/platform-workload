@@ -11,7 +11,8 @@ spec:
     path: base/tns-app
     helm:
       valueFiles:
-        - ../../../apps/dev/tns-app/values.yaml
+        - /apps/dev/tns-app/values.yaml
+        # ../../../apps/dev/tns-app/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: tns
